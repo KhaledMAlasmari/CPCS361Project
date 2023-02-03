@@ -1,0 +1,24 @@
+100
+rq p2 25 b
+stat
+rq p1 10 b
+stat
+rl p1
+stat
+rl p2
+stat
+rq p5 10 b
+stat
+rq p4 15 b
+stat
+rq p6 47 b
+stat
+rl p6
+stat
+rq p6 59 b
+stat
+rq p6 5 W
+stat
+c
+stat
+exit
