@@ -17,6 +17,7 @@ public class MainMemory {
     public MainMemory(int memorySize) {
         this.memorySize = memorySize;
         memoryPartitions = new ArrayList<>();
+        memoryPartitions.add(new MemoryPartition(null, memorySize, 0, memorySize-1));
     }
 
     public void addProcess(Process process) {
